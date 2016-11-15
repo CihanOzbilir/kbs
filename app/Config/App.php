@@ -22,7 +22,7 @@ Config::set('app', array(
     /**
      * The Website URL.
      */
-    'url' => 'http://www.novaframework.dev/',
+    'url' => 'kbs.dev/',
 
     /**
     * The Administrator's E-mail Address.
@@ -37,7 +37,7 @@ Config::set('app', array(
     /**
      * Website Name.
      */
-    'name' => 'Nova 3.0',
+    'name' => 'Haarmode Klazien',
 
     /**
      * The default Template.
@@ -64,7 +64,7 @@ Config::set('app', array(
      * The Encryption Key.
      * This tool can be used to generate key - http://jeffreybarke.net/tools/codeigniter-encryption-key-generator
      */
-    'key' => 'SomeRandomStringThere_1234567890',
+    'key' => 'e3HA6zLo0I2fWe12Tt8KjGS6s8G9vX18',
 
     /**
      *  Prevents the website from CSRF attacks.
