@@ -1,0 +1,77 @@
+
+[2016-11-15 14:53:53] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in D:\xampp\htdocs\kbs\system\Language\Language.php:137
+Stack trace:
+#0 [internal function]: Nova\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-11-15 14:53:53] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in D:\xampp\htdocs\kbs\system\Language\Language.php:137
+Stack trace:
+#0 [internal function]: Nova\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-11-15 14:55:54] production.ERROR: exception 'LogicException' with message 'Unable to guess the mime type as no guessers are available (Did you enable the php_fileinfo extension?)' in D:\xampp\htdocs\kbs\vendor\symfony\http-foundation\File\MimeType\MimeTypeGuesser.php:135
+Stack trace:
+#0 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(172): Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser->guess('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(133): Nova\Routing\Assets\DefaultDispatcher->serve('D:\\xampp\\htdocs...', Object(Nova\Http\Request))
+#2 D:\xampp\htdocs\kbs\system\Routing\Router.php(1050): Nova\Routing\Assets\DefaultDispatcher->dispatch(Object(Nova\Http\Request))
+#3 D:\xampp\htdocs\kbs\system\Routing\Router.php(984): Nova\Routing\Router->dispatchToFile(Object(Nova\Http\Request))
+#4 D:\xampp\htdocs\kbs\system\Foundation\Application.php(744): Nova\Routing\Router->dispatch(Object(Nova\Http\Request))
+#5 D:\xampp\htdocs\kbs\system\Foundation\Application.php(717): Nova\Foundation\Application->dispatch(Object(Nova\Http\Request))
+#6 D:\xampp\htdocs\kbs\shared\Http\ContentGuard.php(62): Nova\Foundation\Application->handle(Object(Nova\Http\Request), 1, true)
+#7 D:\xampp\htdocs\kbs\system\Session\Middleware.php(77): Shared\Http\ContentGuard->handle(Object(Nova\Http\Request), 1, true)
+#8 D:\xampp\htdocs\kbs\system\Cookie\Queue.php(49): Nova\Session\Middleware->handle(Object(Nova\Http\Request), 1, true)
+#9 D:\xampp\htdocs\kbs\system\Cookie\Guard.php(54): Nova\Cookie\Queue->handle(Object(Nova\Http\Request), 1, true)
+#10 D:\xampp\htdocs\kbs\vendor\stack\builder\src\Stack\StackedHttpKernel.php(23): Nova\Cookie\Guard->handle(Object(Nova\Http\Request), 1, true)
+#11 D:\xampp\htdocs\kbs\system\Foundation\Application.php(615): Stack\StackedHttpKernel->handle(Object(Nova\Http\Request))
+#12 D:\xampp\htdocs\kbs\app\Boot\Start.php(244): Nova\Foundation\Application->run()
+#13 D:\xampp\htdocs\kbs\public\index.php(37): require('D:\\xampp\\htdocs...')
+#14 {main} [] []
+[2016-11-15 14:56:15] production.ERROR: exception 'LogicException' with message 'Unable to guess the mime type as no guessers are available (Did you enable the php_fileinfo extension?)' in D:\xampp\htdocs\kbs\vendor\symfony\http-foundation\File\MimeType\MimeTypeGuesser.php:135
+Stack trace:
+#0 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(172): Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser->guess('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(133): Nova\Routing\Assets\DefaultDispatcher->serve('D:\\xampp\\htdocs...', Object(Nova\Http\Request))
+#2 D:\xampp\htdocs\kbs\system\Routing\Router.php(1050): Nova\Routing\Assets\DefaultDispatcher->dispatch(Object(Nova\Http\Request))
+#3 D:\xampp\htdocs\kbs\system\Routing\Router.php(984): Nova\Routing\Router->dispatchToFile(Object(Nova\Http\Request))
+#4 D:\xampp\htdocs\kbs\system\Foundation\Application.php(744): Nova\Routing\Router->dispatch(Object(Nova\Http\Request))
+#5 D:\xampp\htdocs\kbs\system\Foundation\Application.php(717): Nova\Foundation\Application->dispatch(Object(Nova\Http\Request))
+#6 D:\xampp\htdocs\kbs\shared\Http\ContentGuard.php(62): Nova\Foundation\Application->handle(Object(Nova\Http\Request), 1, true)
+#7 D:\xampp\htdocs\kbs\system\Session\Middleware.php(77): Shared\Http\ContentGuard->handle(Object(Nova\Http\Request), 1, true)
+#8 D:\xampp\htdocs\kbs\system\Cookie\Queue.php(49): Nova\Session\Middleware->handle(Object(Nova\Http\Request), 1, true)
+#9 D:\xampp\htdocs\kbs\system\Cookie\Guard.php(54): Nova\Cookie\Queue->handle(Object(Nova\Http\Request), 1, true)
+#10 D:\xampp\htdocs\kbs\vendor\stack\builder\src\Stack\StackedHttpKernel.php(23): Nova\Cookie\Guard->handle(Object(Nova\Http\Request), 1, true)
+#11 D:\xampp\htdocs\kbs\system\Foundation\Application.php(615): Stack\StackedHttpKernel->handle(Object(Nova\Http\Request))
+#12 D:\xampp\htdocs\kbs\app\Boot\Start.php(244): Nova\Foundation\Application->run()
+#13 D:\xampp\htdocs\kbs\public\index.php(37): require('D:\\xampp\\htdocs...')
+#14 {main} [] []
+[2016-11-15 14:56:15] production.ERROR: exception 'LogicException' with message 'Unable to guess the mime type as no guessers are available (Did you enable the php_fileinfo extension?)' in D:\xampp\htdocs\kbs\vendor\symfony\http-foundation\File\MimeType\MimeTypeGuesser.php:135
+Stack trace:
+#0 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(172): Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser->guess('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(133): Nova\Routing\Assets\DefaultDispatcher->serve('D:\\xampp\\htdocs...', Object(Nova\Http\Request))
+#2 D:\xampp\htdocs\kbs\system\Routing\Router.php(1050): Nova\Routing\Assets\DefaultDispatcher->dispatch(Object(Nova\Http\Request))
+#3 D:\xampp\htdocs\kbs\system\Routing\Router.php(984): Nova\Routing\Router->dispatchToFile(Object(Nova\Http\Request))
+#4 D:\xampp\htdocs\kbs\system\Foundation\Application.php(744): Nova\Routing\Router->dispatch(Object(Nova\Http\Request))
+#5 D:\xampp\htdocs\kbs\system\Foundation\Application.php(717): Nova\Foundation\Application->dispatch(Object(Nova\Http\Request))
+#6 D:\xampp\htdocs\kbs\shared\Http\ContentGuard.php(62): Nova\Foundation\Application->handle(Object(Nova\Http\Request), 1, true)
+#7 D:\xampp\htdocs\kbs\system\Session\Middleware.php(77): Shared\Http\ContentGuard->handle(Object(Nova\Http\Request), 1, true)
+#8 D:\xampp\htdocs\kbs\system\Cookie\Queue.php(49): Nova\Session\Middleware->handle(Object(Nova\Http\Request), 1, true)
+#9 D:\xampp\htdocs\kbs\system\Cookie\Guard.php(54): Nova\Cookie\Queue->handle(Object(Nova\Http\Request), 1, true)
+#10 D:\xampp\htdocs\kbs\vendor\stack\builder\src\Stack\StackedHttpKernel.php(23): Nova\Cookie\Guard->handle(Object(Nova\Http\Request), 1, true)
+#11 D:\xampp\htdocs\kbs\system\Foundation\Application.php(615): Stack\StackedHttpKernel->handle(Object(Nova\Http\Request))
+#12 D:\xampp\htdocs\kbs\app\Boot\Start.php(244): Nova\Foundation\Application->run()
+#13 D:\xampp\htdocs\kbs\public\index.php(37): require('D:\\xampp\\htdocs...')
+#14 {main} [] []
+[2016-11-15 14:56:23] production.ERROR: exception 'LogicException' with message 'Unable to guess the mime type as no guessers are available (Did you enable the php_fileinfo extension?)' in D:\xampp\htdocs\kbs\vendor\symfony\http-foundation\File\MimeType\MimeTypeGuesser.php:135
+Stack trace:
+#0 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(172): Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser->guess('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kbs\system\Routing\Assets\DefaultDispatcher.php(133): Nova\Routing\Assets\DefaultDispatcher->serve('D:\\xampp\\htdocs...', Object(Nova\Http\Request))
+#2 D:\xampp\htdocs\kbs\system\Routing\Router.php(1050): Nova\Routing\Assets\DefaultDispatcher->dispatch(Object(Nova\Http\Request))
+#3 D:\xampp\htdocs\kbs\system\Routing\Router.php(984): Nova\Routing\Router->dispatchToFile(Object(Nova\Http\Request))
+#4 D:\xampp\htdocs\kbs\system\Foundation\Application.php(744): Nova\Routing\Router->dispatch(Object(Nova\Http\Request))
+#5 D:\xampp\htdocs\kbs\system\Foundation\Application.php(717): Nova\Foundation\Application->dispatch(Object(Nova\Http\Request))
+#6 D:\xampp\htdocs\kbs\shared\Http\ContentGuard.php(62): Nova\Foundation\Application->handle(Object(Nova\Http\Request), 1, true)
+#7 D:\xampp\htdocs\kbs\system\Session\Middleware.php(77): Shared\Http\ContentGuard->handle(Object(Nova\Http\Request), 1, true)
+#8 D:\xampp\htdocs\kbs\system\Cookie\Queue.php(49): Nova\Session\Middleware->handle(Object(Nova\Http\Request), 1, true)
+#9 D:\xampp\htdocs\kbs\system\Cookie\Guard.php(54): Nova\Cookie\Queue->handle(Object(Nova\Http\Request), 1, true)
+#10 D:\xampp\htdocs\kbs\vendor\stack\builder\src\Stack\StackedHttpKernel.php(23): Nova\Cookie\Guard->handle(Object(Nova\Http\Request), 1, true)
+#11 D:\xampp\htdocs\kbs\system\Foundation\Application.php(615): Stack\StackedHttpKernel->handle(Object(Nova\Http\Request))
+#12 D:\xampp\htdocs\kbs\app\Boot\Start.php(244): Nova\Foundation\Application->run()
+#13 D:\xampp\htdocs\kbs\public\index.php(37): require('D:\\xampp\\htdocs...')
+#14 {main} [] []
